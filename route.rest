@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6483433a7f43f3dcaaa119d6
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Helper",
+    "subscribedToChannel": "Cool Kids"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/648342e47f43f3dcaaa119d1
+
+###
+
+PATCH http://localhost:3000/subscribers/6483515f589ffb0b108e815a
+Content-Type: application/json
+
+{
+    "name": "Fairytale",
+    "subscribedToChannel":"Jigsaw Puzzle"
+}
